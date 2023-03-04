@@ -1,2 +1,10 @@
 
 /* Your CSS Code here. */
+form{
+	display:flex;
+	flex-flow:column;
+	gap:10px;
+	background-color:grey;;
+	padding: 100px;
+	
+}

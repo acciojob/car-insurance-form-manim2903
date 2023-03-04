@@ -8,25 +8,16 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	 <form action="./aravind.html" method="GET">
-        <div>
-            <label for="name">Name*</label>
-            <input type="text" id="name" placeholder="Enter Name" name="username" required>
-        </div>
-        <div>
-            <label for="branch">Branch</label>
-            <input type="text" id="branch" placeholder="Enter branch" name="abc">
-        </div>
-        <div>
-            <label for="email">Email*</label>
-            <input type="email" id="email" name="email" required>
-        </div>
-        <div>
-            <label for="dob">Date of birth*</label>
-            <input type="date" id="dob" name="dateofbirth" required>
-        </div>
-        <div>
-            <!-- radio -->
+	<form>
+		<div>
+			<label for="name">Name*</label>
+			<input type="text" id="name" required placeholder="Name" name="name">
+		</div>
+		<div>
+			<label for="email">Email*</label>
+			<input type="email" id="email" required placeholder="Email" name="email">
+		</div>
+		 <div>
             <label for="male">Male</label>
             <input type="radio" id="male" name="gender" value="m">
 
@@ -38,23 +29,30 @@
             <label for="other">other</label>
             <input type="radio" id="other" name="gender" value="oth">
         </div>
-        <!-- <div>
-            <label for="dsa">DSA</label>
-            <input type="checkbox" id="dsa" name="dsa">
+		<div>
+			<label for="cars">Car Brands : </label>
+			<select name="cars" id="cars" form=carinsurance>
+				<option value="bmw">BMW</option>
+				<option value="audi">Audi</option>
+				<option value="mercedez">Mercedez</option>
+		</div>
+		<div>
+			<label for="carage">Car Age*</label>
+			<input type="number" id="carage" name="carage" required>			
+		</div>
+		<div>
+			<label for="dop" >Date of Purchase*</label>
+			<input type="date" id="dop" name="dop" required>
+		</div>
+		<div>
+			<label for="password">Password*</label>
+			<input type="password" id="password" name="password" required>
+		</div>
+		<div>
+			<input type="submit" value="submit button">
+		</div>
 
-
-            <label for="frontend1">Frontend1</label>
-            <input type="checkbox" id="frontend1" name="frontend1">
-
-
-            <label for="frontend2">Frontend 2</label>
-            <input type="checkbox" id="">
-        </div> -->
-        <!-- <button type="submit">Submit Data</button> -->
-        <button type="reset">Reset</button>
-        <input type="submit" value="Submit Data">
-     </form>
-
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
